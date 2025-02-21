@@ -9,7 +9,7 @@ Source: ChatGPT
 
 From another google, we know that if we have too small of a d for the decryption process we can use something called Wiener's attack. Using [this](https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/wieners-attack) resource (a very good one) we can find a quick python library and script that do this automatically. Pull it down and modify with our data:
 
-`
+```
 #!/usr/bin/env python3
 import owiener
 from Crypto.Util.number import long_to_bytes
@@ -30,7 +30,7 @@ if d:
     print(flag)
 else:
     print("Wiener's Attack failed.")
-`
+```
 
 and get the flag!
 
