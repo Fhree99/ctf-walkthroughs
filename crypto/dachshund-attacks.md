@@ -7,7 +7,7 @@ First thing to notice is that this is connected to RSA given the output, "Welcom
 ![image](images/rsadecenc.png)
 Source: ChatGPT
 
-From another google, we know that if we have too small of a d for the decryption process we can use something called Wiener's attack. Using ![this](https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/wieners-attack) resource (a very good one) we can find a quick python library and script that do this automatically. Pull it down and modify with our data:
+From another google, we know that if we have too small of a d for the decryption process we can use something called Wiener's attack. Using [this](https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/wieners-attack) resource (a very good one) we can find a quick python library and script that do this automatically. Pull it down and modify with our data:
 
 `
 #!/usr/bin/env python3
