@@ -1,0 +1,1 @@
+[This](https://sudorem.dev/posts/pico24-weirdsnake/) walk through should suffice.
